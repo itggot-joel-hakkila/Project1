@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin-left: 0px;
+    display: grid;
+    background-color: yellow;
+    
+}
+
+header{
+    grid-column: 1/10;
+    grid-row: 1/4;
+    background-color: green;
+}
+
+main{
+    grid-column: 2/9;
+    grid-row: 5/17;
+    background-color: orange;
+
+}
+
+.topad{
+    grid-row: 2/7;
+    grid-column: 5/8;
+    background-color: purple;
+}
